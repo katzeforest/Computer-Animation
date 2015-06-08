@@ -1,0 +1,56 @@
+﻿Build started 2014/10/1 20:45:05.
+     1>Project "C:\Users\cat\Documents\Visual Studio 2012\Projects\Curve Editor Framework\CurveEditor\CurveEditor.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Moc'ing aboutdialog.h...
+         Qt: Untested Windows version 6.2 detected!
+         Moc'ing graphicsscene.h...
+         Qt: Untested Windows version 6.2 detected!
+         Moc'ing graphwidget.h...
+         Qt: Untested Windows version 6.2 detected!
+         Moc'ing mainwindow.h...
+         Qt: Untested Windows version 6.2 detected!
+         Uic'ing aboutdialog.ui...
+         Qt: Untested Windows version 6.2 detected!
+         Uic'ing mainwindow.ui...
+         Qt: Untested Windows version 6.2 detected!
+         Rcc'ing Resource.qrc...
+         Qt: Untested Windows version 6.2 detected!
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I.\GeneratedFiles\Release /I..\QT\include\QtGui /I..\QT\include\QtCore /I..\QT\include\qtmain /I..\QT\include /I.\ /Z7 /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_DLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt aboutdialog.cpp edge.cpp graphicsscene.cpp graphwidget.cpp main.cpp mainwindow.cpp node.cpp spline.cpp svzalgebra.cpp GeneratedFiles\Release\moc_aboutdialog.cpp GeneratedFiles\Release\moc_graphicsscene.cpp GeneratedFiles\Release\moc_graphwidget.cpp GeneratedFiles\Release\moc_mainwindow.cpp
+         aboutdialog.cpp
+         edge.cpp
+         graphicsscene.cpp
+         graphwidget.cpp
+         main.cpp
+         mainwindow.cpp
+         node.cpp
+         spline.cpp
+         svzalgebra.cpp
+         moc_aboutdialog.cpp
+         moc_graphicsscene.cpp
+         moc_graphwidget.cpp
+         moc_mainwindow.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I.\GeneratedFiles\Release /I..\QT\include\QtGui /I..\QT\include\QtCore /I..\QT\include\qtmain /I..\QT\include /I.\ /Z7 /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_DLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_Resource.cpp
+         qrc_Resource.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\cat\Documents\Visual Studio 2012\Projects\Curve Editor Framework\Release\CurveEditor.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\QT\lib qtmain.lib QtCore4.lib QtGui4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\cat\Documents\Visual Studio 2012\Projects\Curve Editor Framework\Release\CurveEditor.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\cat\Documents\Visual Studio 2012\Projects\Curve Editor Framework\Release\CurveEditor.lib" /MACHINE:X86 /SAFESEH Release\aboutdialog.obj
+         Release\edge.obj
+         Release\graphicsscene.obj
+         Release\graphwidget.obj
+         Release\main.obj
+         Release\mainwindow.obj
+         Release\node.obj
+         Release\spline.obj
+         Release\svzalgebra.obj
+         Release\qrc_Resource.obj
+         Release\moc_aboutdialog.obj
+         Release\moc_graphicsscene.obj
+         Release\moc_graphwidget.obj
+         Release\moc_mainwindow.obj
+         CurveEditor.vcxproj -> C:\Users\cat\Documents\Visual Studio 2012\Projects\Curve Editor Framework\Release\CurveEditor.exe
+     1>Done Building Project "C:\Users\cat\Documents\Visual Studio 2012\Projects\Curve Editor Framework\CurveEditor\CurveEditor.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.45

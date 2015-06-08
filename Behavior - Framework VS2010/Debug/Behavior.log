@@ -1,0 +1,64 @@
+﻿Build started 2014/12/4 18:55:24.
+     1>Project "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Behavior\Behavior.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\Behavior.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I..\QT\include /I.\GeneratedFiles\Debug /I..\QT\include\qtmain /I..\QT\include\QtCore /I..\QT\include\QtGui /I..\QT\include\QtOpenGL /I.\ /I.\GL /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_CORE_LIB /D QT_GUI_LIB /D QT_OPENGL_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\\" /Fd"C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Agent.cpp
+         Agent.cpp
+     1>c:\users\cat\documents\visual studio 2010\projects\behavior - framework vs2010\behavior\agent.cpp(478): warning C4715: 'CAgent::Avoid' : not all control paths return a value
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\Behavior.exe" /NOLOGO /LIBPATH:..\QT\lib /LIBPATH:.\GL qtmaind.lib QtCored4.lib QtGuid4.lib QtOpenGLd4.lib opengl32.lib glu32.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\Behavior.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\Behavior.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\Behavior.lib" /MACHINE:X86 "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\aboutdialog.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\Agent.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\AgentDisplay.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\Animation.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\BehaviorCamera.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\BehaviorGlWidget.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\BehaviorSimulation.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\Camera.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\controlpaneldialog.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\edge.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\Environment.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\glwidget.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\graphicsscene.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\graphwidget.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\interpolationdialog.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\main.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\mainwindow.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\node.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\OpenGLViewer.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\ParticleGLWidget.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\ParticleSystem.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\qgraphicsitem.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\Rocket.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\Simulation.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\skeletondialog.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\Spark.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\spline.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\Transformation.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\qrc_Resource.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\moc_aboutdialog.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\moc_BehaviorGlWidget.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\moc_controlpaneldialog.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\moc_glwidget.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\moc_graphicsscene.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\moc_graphwidget.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\moc_interpolationdialog.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\moc_mainwindow.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\moc_ParticleGlWidget.obj"
+         "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\moc_skeletondialog.obj"
+         LINK : C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\Behavior.exe not found or not built by the last incremental link; performing full link
+     1>qtmaind.lib(qtmain_win.obj) : warning LNK4204: 'C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+         Behavior.vcxproj -> C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\Behavior.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\Behavior.exe;#1" /manifest "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\Behavior.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\Behavior.unsuccessfulbuild".
+         Touching "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Debug\Behavior.lastbuildstate".
+     1>Done Building Project "C:\Users\cat\Documents\Visual Studio 2010\Projects\Behavior - Framework VS2010\Behavior\Behavior.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.89

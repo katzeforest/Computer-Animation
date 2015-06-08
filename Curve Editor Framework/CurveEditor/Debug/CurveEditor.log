@@ -1,0 +1,44 @@
+﻿Build started 2014/9/28 18:29:45.
+     1>Project "C:\Users\cat\Documents\Visual Studio 2012\Projects\Curve Editor Framework\CurveEditor\CurveEditor.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Moc'ing aboutdialog.h...
+         Qt: Untested Windows version 6.2 detected!
+         Moc'ing graphicsscene.h...
+         Qt: Untested Windows version 6.2 detected!
+         Moc'ing graphwidget.h...
+         Qt: Untested Windows version 6.2 detected!
+         Moc'ing mainwindow.h...
+         Qt: Untested Windows version 6.2 detected!
+         Uic'ing aboutdialog.ui...
+         Qt: Untested Windows version 6.2 detected!
+         Uic'ing mainwindow.ui...
+         Qt: Untested Windows version 6.2 detected!
+         Rcc'ing Resource.qrc...
+         Qt: Untested Windows version 6.2 detected!
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I.\GeneratedFiles\Debug /I..\QT\include\QtGui /I..\QT\include\QtCore /I..\QT\include\qtmain /I..\QT\include /I.\ /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_CORE_LIB /D QT_GUI_LIB /D QT_DLL /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt aboutdialog.cpp edge.cpp graphicsscene.cpp graphwidget.cpp main.cpp mainwindow.cpp node.cpp spline.cpp svzalgebra.cpp GeneratedFiles\Debug\moc_aboutdialog.cpp GeneratedFiles\Debug\moc_graphicsscene.cpp GeneratedFiles\Debug\moc_graphwidget.cpp GeneratedFiles\Debug\moc_mainwindow.cpp
+         aboutdialog.cpp
+         edge.cpp
+         graphicsscene.cpp
+         graphwidget.cpp
+         main.cpp
+         mainwindow.cpp
+         node.cpp
+         spline.cpp
+     1>spline.cpp(543): error C2664: 'Node::Node(GraphWidget *,NodeType)' : cannot convert parameter 2 from 'QList<T>' to 'NodeType'
+                 with
+                 [
+                     T=Node *
+                 ]
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+         svzalgebra.cpp
+         moc_aboutdialog.cpp
+         moc_graphicsscene.cpp
+         moc_graphwidget.cpp
+         moc_mainwindow.cpp
+         Generating Code...
+     1>Done Building Project "C:\Users\cat\Documents\Visual Studio 2012\Projects\Curve Editor Framework\CurveEditor\CurveEditor.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:11.23
